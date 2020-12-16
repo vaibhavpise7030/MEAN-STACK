@@ -1,0 +1,34 @@
+
+
+<!--Q1. Write function bigno(){} which will accept 5 number as array and return max value. 
+	This function should work even if you pass different number of argument. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script type="text/javascript">
+		
+		function bingo(...temp)
+		{
+			var val=0;
+
+			for (var i = 0; i < temp.length; i++) 
+			{
+				if(val<temp[i])
+				{
+					val=temp[i];
+				}
+			}
+		
+			return val;
+		}
+
+      document.write("Highest number is: "+bingo(10,5,50,20,60)) ;
+	</script>
+</head>
+<body>
+
+</body>
+</html>

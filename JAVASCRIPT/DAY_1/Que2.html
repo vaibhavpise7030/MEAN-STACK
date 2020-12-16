@@ -1,0 +1,27 @@
+<!--Q2. Write function fact(){} which will accept a number and return factorial of a number. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Factorial</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	function fact(val)
+	{
+		var temp=1;
+		for (var i = 1; i<=val; i++) 
+		{
+			temp=temp*i;
+		}
+		return temp;
+	}
+
+
+	document.write("Factorial is :"+fact(5));
+</script>
+
+</body>
+</html>
